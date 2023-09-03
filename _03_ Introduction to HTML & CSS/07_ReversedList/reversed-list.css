@@ -1,0 +1,20 @@
+/* reversed-list.css */
+
+#wrapper {
+    background-color: #dddddd;
+    color: #95191a;
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ol[reversed="reversed"] {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
