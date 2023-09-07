@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+}
+
+section {
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p.italic-paragraph {
+    font-style: italic;
+}
+
+p.normal-paragraph {
+    font-size: 24px;
+}
