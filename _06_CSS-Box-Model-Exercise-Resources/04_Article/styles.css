@@ -1,1 +1,25 @@
-/* TODO: style the html */
+main {
+    width: 900px;
+    height: 140px;
+  }
+  
+  img {
+    display: inline-block;
+   
+  max-width: 50%; /* Set a maximum width for the image to prevent it from being too wide */
+    border-right: 1px solid #d1d1d1; 
+    
+    margin-right: 19px;
+    padding-right: 19px;
+ 
+  }
+  
+  p {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e2e2e;
+    text-align: justify;
+    max-width: 45%; /* Set a maximum width for the text to leave space for the image */
+}
+  
