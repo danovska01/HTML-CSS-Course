@@ -1,0 +1,76 @@
+
+
+/* =================================
+Masonry layout
+===================================== */
+
+body {
+    background-color: rgb(238, 238, 238);
+    max-width: 100vw;
+    height: 333vh;
+    overflow-x: hidden;
+}
+
+.masonry {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    flex-wrap: wrap;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 22px;
+    margin-bottom: 50px;
+}
+h2 {
+    width: 100%;
+    margin: 40px 18% ;
+}
+
+article {
+    width: 31%;
+    border: 2px solid rgb(220, 217, 217);
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+img{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+section{
+    padding: 12px;
+}
+footer {
+    border-top: 1px solid rgb(220, 217, 217);
+    margin-top: auto;
+    padding: 8px;
+}
+
+
+
+
+         /*=========================
+         Flex layout 
+         ======================= */
+
+        
+        .flex {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            padding-left: 18%;
+            padding-right: 18%;
+            gap: 22px;
+            margin-bottom: 50px;
+        }
+        
+
+        .flex-article {
+            width: 31%;
+            border: 2px solid rgba(51, 0, 0, 0.321);
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(171, 186, 186);
+        }
+ 
