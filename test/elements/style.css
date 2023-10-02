@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 0px;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+
+section {
+    display: flex;
+    width: 100%;
+   
+}
+
+li {
+    background-color:burlywood;
+    width: 18%;
+    justify-content: space-between;
+}
+ul{
+    width: 100%;    
+    padding: 96px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container2{
+    display: flex;
+    width: 80%;
+}
+
+.class2{
+    width: 100%;    
+    padding: 96px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
