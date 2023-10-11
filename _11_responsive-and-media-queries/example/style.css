@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-  color: red !important;
+  /* color: red !important; */
+  color: red;
   font-size: 2rem;
   text-align: center;
   font-weight: normal;
