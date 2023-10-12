@@ -1,0 +1,94 @@
+/*
+background #ffffff
+bachground card grey #819daf
+button color blue #327cc4
+text services blue #337dc4
+black #000000
+
+*/
+
+body {
+    background-color: #ffffff; 
+    color: #000000;
+    font-family: Poppins;
+  
+  }
+  main{
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    align-self: stretch;
+  }
+
+  div.info {
+    text-align: center;
+    font-size: 16px;
+
+  }
+  div.info h1 {
+    margin: 30px auto 0px auto;
+}
+
+div.info p {
+  margin: 0px auto 8px auto;
+}
+
+div.info .text_blue {
+  color: #337dc4;
+}
+
+.cards_container {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto; /* Center horizontally with auto margins */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the flex items horizontally */
+  align-self: stretch;
+}
+
+
+.card {
+  background-color: #819daf;
+  border: 0px;
+  border-radius: 20px;
+  width: 28%;
+  align-self: stretch;
+  overflow: hidden;
+
+}
+
+
+.thumbnail__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.content {
+  padding: 30px 14px 16px 14px;
+  text-align: left;
+}
+
+.content__title {
+  font-size: 21px;
+  margin-bottom: 6px;
+}
+
+button{
+  border-radius: 16px;
+  border: 1px solid white;
+  background-color: #327cc4;
+  color: white;
+  padding: 4px 20px;
+  margin-top: 10px;
+}
+
+
+
