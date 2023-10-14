@@ -35,12 +35,16 @@ ul{
     gap: 20px;
 }
 
-.container2{
-    display: flex;
-    width: 80%;
-}
+/* .container2{
+    display: grid;
+    width: 100%;
+    background-color: antiquewhite;
+   
+} */
 
 .class2{
+    display: grid;
+    grid-auto-flow: row;
     width: 100%;    
     padding: 96px;
     flex-wrap: wrap;

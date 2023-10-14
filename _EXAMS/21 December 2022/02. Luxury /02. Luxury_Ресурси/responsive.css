@@ -13,26 +13,30 @@
     header h1 {
         font-size: 30px;
     }
-
-    .options a {
-        visibility: hidden;
-    }
     .options {
         flex-direction: column;
     }
+  
     header .options article {
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .options a {
+        visibility: hidden;
+    }
+
 
     /*----------------MAIN------------*/
 
     /*----------------GALLERY------------*/
 
+    body main h2 {
+        font-size: 20px;
+      }
+
     main .gallery {
-        display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 40%;
@@ -75,7 +79,11 @@
 
 
     main .blog .blog-title h4{
-        font-size: 30px;
+        font-size: 26px;
+    }
+
+    main .blog #about-blog h3 {
+        font-size: 18px;
     }
 
     /*----------------MAGAZINE------------*/
