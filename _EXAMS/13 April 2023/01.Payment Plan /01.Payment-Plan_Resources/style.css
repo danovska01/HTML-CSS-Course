@@ -1,0 +1,133 @@
+
+html {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.15;
+  }
+  body {
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--dl-color-gray-black);
+    background-color: var(--dl-color-gray-white);
+  }
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('image/background.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Scale the image to cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+main .plans-container {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+main .plans-container .plan {
+    max-width: 450px;
+    padding: 40px 40px;
+    transition: 0.3s;
+    background-color: white;
+    border: 1px solid black;
+    flex-basis: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 32px;
+    margin: 10px; 
+    border-radius: 4px;
+}
+
+main .plans-container .plan:nth-child(1) {
+    height: 690px;
+}
+
+main .plans-container .plan:nth-child(2) {
+    height: 750px;
+}
+
+main .plans-container .plan:nth-child(3) {
+    height: 730px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+    align-self: baseline;
+    margin: auto 0 20px 0;
+}
+
+.plan .title .name {
+    display: block;
+    text-align: left;
+    margin-bottom: 64px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.plan .title .price {
+display: flex;
+align-items: baseline;
+flex-direction: row;
+margin-bottom: 54px;
+}
+
+.plan .title .price .dollar-sign, 
+ .plan .title .price .monthly {
+font-size: 1.15rem;
+margin-top: var(--dl-space-space-twounits);
+font-weight: 300;
+}
+
+.plan .title .price .number {
+font-size: 4rem;
+font-weight: 700;
+}
+
+main .plans-container p {
+color: grey;
+font-size: 1rem;
+text-align: left;
+margin-bottom: 54px;
+}
+
+.plans-container .features {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.plans-container .features li {
+    margin-bottom: 24px;
+}
+
+.plan {
+    transition: transform 0.2s; /* Add a transition for the transform property */
+}
+
+.plan:hover {
+    transform: scale(1.05); /* Scale the plan slightly on hover */
+}
+
+
+
