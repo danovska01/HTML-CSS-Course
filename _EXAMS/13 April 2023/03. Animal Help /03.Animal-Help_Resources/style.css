@@ -1,0 +1,96 @@
+html{
+    font-family: "Arial", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*------------HEADER----------*/
+header{
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.list-items {
+    display: flex;
+
+}
+.list-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+/*------------MAIN----------*/
+
+/*------------first section with pic----------*/
+
+main .wrapper {
+    width: 100%;
+    height: 700px;
+    padding: 0 80px;
+    background-color: #85dcff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .wrapper .img-wrapper {
+    height: 100%; 
+    width: 100%;
+    
+}
+main .wrapper .img-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+main .wrapper .info-first {
+  text-align: left;
+}
+
+main .wrapper .info-first h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+main .wrapper .info-first p {
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+main .wrapper .info-first .buttons {
+    display: flex;
+    gap: 30px;
+}
+
+main .wrapper .info-first .buttons .donate {
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    border: 2px 0px 1px 0px; 
+    overflow: hidden;
+    padding: 30px 80px;
+}
+
+main .wrapper .info-first .buttons .join {
+    background-color: black;
+    color: wheat;
+    border-radius: 10px;
+    border: 2px 0px 1px 0px; 
+    overflow: hidden;
+    padding: 30px 80px;
+}
+
+
+
