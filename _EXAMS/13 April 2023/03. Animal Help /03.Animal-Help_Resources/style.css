@@ -92,5 +92,76 @@ main .wrapper .info-first .buttons .join {
     padding: 30px 80px;
 }
 
+/*-------------------section2--with icons--------*/
+
+.wrapper2{
+    background-color: #ffffff;
+    width: 100%;
+    height: 700px;
+    padding: 0 80px;
+}
+
+.wrapper2 h2 {
+    
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+    font-weight: 700;
+    
+
+}
+
+.wrapper2 p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.wrapper2 .sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.wrapper2 .sections {
+   padding: 50px 0px;
+}
+
+.sections .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 600px;
+
+}
+.sections .section h2 {
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center;
+    font-weight: 700;
+    width: 75;
+}
+.sections .section p{
+    font-size: 22px;
+    margin:0;
+    text-align: center;
+    font-weight: 300;
+    width: 75%;
+
+}
+.sections .section .img-wrapper {
+    color: #85dcff;
+    width: 150px;
+    height: 150px;
+    font-size: 150px; 
+}
+.sections .section .img-wrapper img {
+    object-fit: contain;
+}
+
 
 
