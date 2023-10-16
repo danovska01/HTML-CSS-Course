@@ -85,7 +85,7 @@ main .wrapper .info-first .buttons .donate {
 
 main .wrapper .info-first .buttons .join {
     background-color: black;
-    color: wheat;
+    color: white;
     border-radius: 10px;
     border: 2px 0px 1px 0px; 
     overflow: hidden;
@@ -162,6 +162,52 @@ main .wrapper .info-first .buttons .join {
 .sections .section .img-wrapper img {
     object-fit: contain;
 }
+
+/*-------------------section3--blue-------*/
+
+.wrapper3{
+    height: 700px;
+    background-color: #85dcff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.wrapper3 h2{
+    text-align: center;
+}
+
+.wrapper3 .mission {
+    width:20% ;
+    justify-content: center;
+    align-self: center;
+}
+
+.wrapper3 .list-items {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap:50px;
+}
+
+
+.wrapper3 .list-column {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.wrapper3 .list-column li {
+    margin-bottom: 20px;
+}
+.wrapper3 button{
+    background-color: #000000;
+    color: white;
+    border-radius: 12px;
+    padding: 20px 0;
+}
+
+
 
 
 
