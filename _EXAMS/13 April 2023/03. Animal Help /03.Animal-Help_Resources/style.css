@@ -207,6 +207,44 @@ main .wrapper .info-first .buttons .join {
     padding: 20px 0;
 }
 
+/*-------------------section4----pics-------*/
+
+.wrapper4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.wrapper4 h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 66px;
+}
+.wrapper4 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.wrapper4 .images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -20px auto 20px auto;
+}
+.images .img-wrapper{
+    width: 17%;
+}
+.images .img-wrapper img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+
+
+
+
 
 
 
