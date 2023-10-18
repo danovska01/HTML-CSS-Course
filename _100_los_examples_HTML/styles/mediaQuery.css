@@ -1,0 +1,17 @@
+h1 {
+    background-color: rgb(12, 97, 12);
+  }
+  
+  p {
+    background-color: rgb(225, 255, 0);
+  }
+  
+  p:hover {
+    background-color: rgb(32, 13, 152);
+  }
+  
+  @media (min-width: 400px) and (max-width: 700px) {
+    header {
+      background-color: rgb(85, 27, 4);
+    }
+  }

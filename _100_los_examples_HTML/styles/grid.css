@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6, 120px);
+    grid-template-rows: repeat(6, 60px);
+    grid-template-areas:
+      "head head head head head head"
+      "side . content content content content"
+      "side . content content content content"
+      "side . content content content content"
+      "side . content content content content"
+      "foot foot foot foot foot foot";
+  }
+  
+  .header{
+      background-color: rgb(246, 255, 0);
+      grid-area: foot;
+  }
+  
+  .sidebar{
+      background-color: rgb(114, 4, 4);
+      grid-area: side;
+  }
+  
+  .content{
+      background-color: rgb(2, 55, 73);
+      grid-area: content;
+  }
+  
+  .footer{
+      background-color: rgb(209, 3, 255);
+      grid-area: head;
+  }
+  

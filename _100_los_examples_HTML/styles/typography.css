@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+p {
+    text-decoration: underline;             /* Подчертан текст*/
+    padding: 20px;                          /* Отстояние на текста вътре в елемента*/
+    margin: 10px 5px;                       /* Отстояние на елемента от други елементи top-down/ left-right*/
+    letter-spacing: 3px;                    /* Разстоние между буквите*/
+    background-color: #3B516B;            /* Фон */
+    border-radius: 10px;                    /* Заобленост на рамката на елемента*/
+    color: floralwhite;                   /* Цвят на самия текст*/
+    font-family: Helvetica, sans-serif;     /* Типове шрифтове */
+    line-height: 1.5;                       /* Височина на самия ред, на който се пише*/
+    font-size: 18px;                        /* Големина на шрифта */  
+    text-indent: 40px;                      /* Отстояние в началото на абзац*/
+    text-transform: uppercase;              /* Преобразуване целия текст с главни букви*/
+    background: linear-gradient(to right, #F7ECEC, #878282); /* Преливащ вят на фона*/
+}
+
+a {
+    text-decoration: none;                  /* Премахва линията под линка */
+}

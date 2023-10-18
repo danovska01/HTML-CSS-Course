@@ -1,0 +1,46 @@
+.body {
+
+    background: black;
+  }
+  
+  .flexcontainer {
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .largebox{
+  
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    border-radius: 5px;
+    border: white 1px solid;
+  }
+  
+  .smallbox {
+  
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: white 1px solid;
+  }
+  
+  
+  
+  .linebreak {
+  
+    background-color: darkgrey;
+    height: 2px;
+    flex-basis: 100%;
+   
+  }

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 0px;                     /* First off, set font-size to null ... */
+}
+.container > * {
+    font-size: 16px;                    /* Then set to all children some chosen font-size*/
+}
+
+
+.first {
+    display: inline-block;
+    padding: 5px;
+    background-color: grey;
+    width: 80%;
+    border: 2px solid brown;
+    height: 200px;
+   
+    vertical-align: middle;
+}
+.second {
+    display: inline-block;
+    padding: 5px;
+    background-color: green;
+    border: 8px solid blue;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;          /* These 10px would move the whole element down, so*/
+    width: calc(20% - 10px);    /* we can deduct it from the width by calc func*/     
+}

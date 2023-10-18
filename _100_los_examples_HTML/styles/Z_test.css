@@ -1,0 +1,17 @@
+.container {
+   
+   width: 1800px;
+   height: 900px;
+   background-color: azure;
+   display: flex;
+   flex-direction: column;
+}
+
+p{
+    margin-top: 50px;
+}
+
+button{
+    margin-bottom: 50px;
+    margin-top:auto;
+}

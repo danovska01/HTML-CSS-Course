@@ -1,0 +1,12 @@
+.border {
+    border: 3px solid red;
+ 
+}
+
+.outline {
+    border: 3px solid green;
+    outline: 5px solid orange;
+    outline-offset: 15px; 
+/*    outline-offset: -15px; */ 
+  
+}

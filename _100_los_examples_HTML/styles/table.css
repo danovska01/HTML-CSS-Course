@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;      /*No space between any column*/
+  }
+  
+  th {
+    background-color: #333; 
+    color: white;
+    border: 1px solid #666; /* Border for headers */
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Grey background for odd rows */
+  }
+  
+  tr:nth-child(even) {
+    background-color: white; /* White background for even rows */
+  }
+  
+  td {
+    border: 1px solid #ddd; /* Border for cells */
+    padding: 8px;
+  }

@@ -1,0 +1,54 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+  }
+  
+  .container {
+    /* padding: 12px; */
+    border: 2px dashed black;
+  }
+  
+  .item {
+    padding: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 6px;
+  }
+  
+  .item:nth-child(1) {
+    background-color: #d7fc05;
+    width: 40%;
+  }
+  .item:nth-child(2) {
+    background-color: #79ff03;
+  }
+  .item:nth-child(3) {
+    background-color: #08fdf9;
+  }
+  .item:nth-child(4) {
+    background-color: #0639f4;
+  }
+  .item:nth-child(5) {
+    background-color: #c106fa;
+  }
+  .item:nth-child(6) {
+    background-color: #ec0a0a;
+  }
+  
+  /* FLEXBOX */
+  
+  .container {
+    /* height: 500px; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;                    /* Feature for move at new row elements when they are more than the space available at their row*/
+    justify-content: center;            /* Center horizontally when flex-direction is row; Other options are available - space-between, space-evenly, space-arround....*/
+    align-items: center;                /* Center items vertically */
+  /*  align-content: flex-start; */     /* It is necessary to have wrap property, to have more than one rows and to have more space for this rows */
+    gap: 30px;                          /* Instead of margin at any element */
+  }
