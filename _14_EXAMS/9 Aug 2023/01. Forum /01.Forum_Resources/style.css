@@ -1,0 +1,137 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide scrollbars */
+}
+
+main {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 65px 130px 65px 130px;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "horizontal1 horizontal1 vertical"
+    "horizontal2 horizontal2 vertical";
+}
+
+.horizontal1 {
+  grid-area: horizontal1;
+}
+
+.horizontal2 {
+  grid-area: horizontal2;
+}
+
+.vertical {
+  grid-area: vertical;
+  height: 100%;
+}
+
+main article {
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+main .horizontal1,
+main .horizontal2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+main .vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 55px;
+}
+
+main .horizontal1 .info,
+main .horizontal2 .info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main .vertical .info {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .horizontal1 .info .quotation-mark,
+main .horizontal2 .info .quotation-mark {
+  font-size: 80px;
+  font-weight: 700;
+}
+main .vertical .info .quotation-mark {
+  font-size: 110px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+main .info p {
+  font-size: 24px;
+  color: #635b5b;
+  margin-bottom: 10px;
+}
+main h1 {
+  font-size: 30px;
+}
+.small {
+  font-size: 18px;
+}
+
+.img_wrapper1 {
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.horizontal1 .img_wrapper1 img {
+  width: 100%;
+  object-fit: contain;
+  position: relative; /* Add relative positioning */
+  bottom: 40px; /* Adjust this value to move it downward */
+}
+
+.image-container {
+  display: flex;
+  gap: 15px;
+  border-top: 1px solid #635b5b;
+  padding-top: 15px;
+}
+
+.vertical .img_wrapper2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.vertical .img_wrapper2 img {
+  width: 100%;
+  object-fit: contain;
+  position: relative; /* Add relative positioning */
+  bottom: 30px; /* Adjust this value to move it downward */
+  filter: grayscale(100%); /* Apply grayscale to make it black and white */
+}
