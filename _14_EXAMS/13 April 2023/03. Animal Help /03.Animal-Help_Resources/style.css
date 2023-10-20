@@ -290,44 +290,43 @@ main .wrapper .info-first .buttons .join {
     border-bottom: rgb(235, 235, 235) 2px solid;
 }
 
-/*sec6*/
 
 /*SECTION 6 */
 
 
-.sec6{
+.wrapper6{
     height: 620px;
     display: flex;
 }
-.sec6 div:nth-child(1){
+.wrapper6 div:nth-child(1){
     width: 64%;
 }
-.sec6 img {
+.wrapper6 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.sec6 div:nth-child(2){
+.wrapper6 div:nth-child(2){
     display: flex;
     flex-direction: column;
     padding: 120px 100px;
     justify-content: space-between;
 }
-.sec6 h2{
+.wrapper6 h2{
     font-size: 40px;
 }
-.sec6 p {
+.wrapper6 p {
     font-size: 21px;
     width: 94%;
 }
-.sec6 input{
+.wrapper6 input{
     width: 360px;
     height: 70px;
     border-radius: 10px;
     padding: 10px 26px;
     font-size: 22px;
 }
-.sec6 button{
+.wrapper6 button{
     height: 70px;
     width: 220px;
     background-color: black;
