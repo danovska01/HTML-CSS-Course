@@ -1,0 +1,110 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide scrollbars */
+}
+main {
+  display: flex;
+  width: 70%;
+  height: 70%;
+  margin: 70px auto;
+  border: 1px solid #808080;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  overflow: hidden;
+}
+.img-wrapper {
+  width: 50%;
+  height: 100%;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.text-wrapper {
+  width: 50%;
+  height: 100%;
+  background-color: #f6f7f8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10%;
+}
+.links-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.links-buttons a {
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.links-buttons a:nth-child(1) {
+  background-color: #85d761;
+}
+.links-buttons a:nth-child(2) {
+  background-color: #e0e0df;
+}
+h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.gender {
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.weight {
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+}
+.height-param {
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button {
+  width: 90%;
+  margin: 0 auto; /* Center horizontally within its parent */
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically within the button */
+  background-color: #05a2d3;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+input,
+select {
+  border-radius: 6px;
+  padding: 0 2px;
+}
