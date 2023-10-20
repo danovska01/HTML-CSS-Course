@@ -1,52 +1,65 @@
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+
+
+.one{
+    background-color: blue;
+
+}
+ .two{
+    background-color: yellow;
+    transform: scale(0.7);
+}
+.three{
+    background-color: rgb(54, 190, 43);
+}
+.four{
+    background-color: burlywood;
+    transform: scale(1.2);
+    align-self: flex-start;
+}
+.five{
+    background-color: salmon;
+
+}
+.six{
+    background-image: linear-gradient(90deg, rgba(233,233,14,1) 12%, rgba(210,74,213,0.1474790599833683) 100%);
+}
+.seven{
+    background-image: linear-gradient(90deg, rgb(241, 26, 126) 12%, rgba(228, 25, 231, 0.147) 100%);
 }
 
-body, ul, li {
+.eight {
+    background-image: linear-gradient(90deg, rgb(14, 233, 65) 12%, rgba(213, 74, 139, 0.147) 100%);
+}
+.container{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
 }
 
-body {
-    max-width: 100vw;
-    height: 100vh;
-    font-size: 0px;
-    overflow: scroll;
-    margin: 0 auto;
-}
-
-
-section {
+.container .class1 {
+    background-color: rgb(86, 85, 105);
     display: flex;
-    width: 100%;
-   
-}
-
-li {
-    background-color:burlywood;
-    width: 18%;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    width: 900px;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
 }
-ul{
-    width: 100%;    
-    padding: 96px;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+.class1 li {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 
-/* .container2{
-    display: grid;
-    width: 100%;
-    background-color: antiquewhite;
-   
-} */
-
-.class2{
-    display: grid;
-    grid-auto-flow: row;
-    width: 100%;    
-    padding: 96px;
-    flex-wrap: wrap;
-    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
