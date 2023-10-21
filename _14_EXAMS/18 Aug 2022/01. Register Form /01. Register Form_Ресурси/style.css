@@ -1,0 +1,106 @@
+body {
+    font-family: "Mulish", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0; 
+    overflow: hidden; /* Hide scrollbars */
+    background-image: url(/images/background.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  main {
+    background-image: url(/images/form-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 43%;
+    height: 65%;
+    margin: 0 auto;
+    border: 1px solid #808080;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: hidden;
+    color: rgb(70, 68, 68);
+   
+    
+    
+  }
+  article{
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    padding: 70px 50px 30px 60px;
+    
+  }
+
+  h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #333333;
+    
+    
+    
+  }
+
+  .form .fields .name {
+    display: flex;
+    gap: 15px;
+  }
+  .form .fields {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  input{
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px 2px;
+    margin-top: 6px;
+  }
+  .email input, .password input, .confirm-pass input{
+    width: 100%;
+  }
+
+
+
+button{
+    background-color: #ae3c33;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 100%;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.name {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.first-name, .last-name {
+    width: 50%;
+}
+
+.first-name input, .last-name input {
+    width: 100%;
+    background-color: white;
+}
+
+ 
+
+
