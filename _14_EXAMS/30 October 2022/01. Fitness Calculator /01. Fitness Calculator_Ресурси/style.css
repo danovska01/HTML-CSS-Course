@@ -8,7 +8,7 @@ body {
 main {
   display: flex;
   width: 70%;
-  height: 70%;
+  /* height: 70%; */
   margin: 70px auto;
   border: 1px solid #808080;
   border-radius: 20px;
@@ -16,7 +16,14 @@ main {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   overflow: hidden;
 }
-.img-wrapper {
+.img-wrapper{
+  width: 50%;
+  height: 100%;
+  background-image: url(/image/calculator.png);
+  object-fit: cover;
+  filter: brightness(70%);
+}
+/* .img-wrapper {
   width: 50%;
   height: 100%;
 }
@@ -25,7 +32,7 @@ main {
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
-}
+} */
 
 .text-wrapper {
   width: 50%;
@@ -35,32 +42,37 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 37px;
+  font-weight: 700;
   padding: 10%;
 }
 .links-buttons {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 150px;
 }
 .links-buttons a {
   border: 1px solid #000000;
   color: #000000;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 10px 20px;
   text-decoration: none;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: 500;
 }
 .links-buttons a:nth-child(1) {
   background-color: #85d761;
 }
 .links-buttons a:nth-child(2) {
   background-color: #e0e0df;
+  padding: 10px 40px;
 }
 h3 {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  padding: 5%;
+  padding: 3%;
 }
 .info {
   display: flex;
@@ -74,7 +86,8 @@ h3 {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
+  font-weight: 700;
 }
 .weight {
   text-align: center;
@@ -105,6 +118,11 @@ button {
 
 input,
 select {
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 0 2px;
+  border: 1px solid grey;
+}
+.weight input{
+  padding: 5px 2px;
+  width: 80%;
 }
