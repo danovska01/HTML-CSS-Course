@@ -4,7 +4,7 @@ body {
     height: 100vh;
     margin: 0; 
     overflow: hidden; /* Hide scrollbars */
-    background-image: url(/images/background.png);
+    background-image: url(images/background.png);
     background-size: cover; 
     background-repeat: no-repeat;
     display: flex;
@@ -12,11 +12,13 @@ body {
     align-items: center; /* Center vertically */
   }
   main {
-    background-image: url(/images/form-background.png);
+    background-image: url(images/form-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 43%;
-    height: 65%;
+    /* width: 43%;
+    height: 66%; */
+    width: 60%;
+    height: 75%;
     margin: 0 auto;
     border: 1px solid #808080;
     border-radius: 30px;
@@ -32,7 +34,7 @@ body {
     width: 60%;
     height: 100%;
     text-align: left;
-    padding: 70px 50px 30px 60px;
+    padding: 100px;
     
   }
 
@@ -55,7 +57,7 @@ body {
     gap: 15px;
   }
   .form .fields {
-    height: 70%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -65,7 +67,7 @@ body {
     border-radius: 30px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
-    padding: 10px 2px;
+    padding: 6px 2px;
     margin-top: 6px;
   }
   .email input, .password input, .confirm-pass input{
@@ -81,7 +83,7 @@ button{
     border-radius: 20px;
     padding: 5px 10px;
     width: 100%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-size: 18px;
     font-weight: 900;
     margin-top: 20px;
@@ -94,6 +96,7 @@ button{
 
 .first-name, .last-name {
     width: 50%;
+    padding: 4px 2px;
 }
 
 .first-name input, .last-name input {
